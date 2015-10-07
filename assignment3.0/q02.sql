@@ -1,0 +1,1 @@
+SELECT DISTINCT fldDays, fldStart, fldStop, fldFirstName, fldLastName FROM tblSections JOIN tblTeachers ON pmkNetId = fnkTeacherNetId WHERE tblTeachers.fldFirstName LIKE 'Robert%' AND tblTeachers.fldLastName LIKE 'Snapp%' ORDER BY `tblSections`.`fldStart` ASC

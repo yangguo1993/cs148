@@ -1,7 +1,0 @@
-
-<Files *>
-AuthType WebAuth
-require user yguo2
-satisfy any 
-order allow,deny
-</Files>
