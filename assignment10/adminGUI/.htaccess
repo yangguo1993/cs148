@@ -1,0 +1,6 @@
+<Files *>
+AuthType WebAuth
+require user yguo2 gsamsono rerickso
+satisfy any
+order allow,deny
+</Files>

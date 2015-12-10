@@ -1,0 +1,300 @@
+/* CSS designed by Robert M. Erickson */
+
+/* ===================  General Section  ==================================== */
+
+* {
+	font-size: 12pt;  /* sets the font size for all elements. */
+    /* look up reset style sheet */
+}
+
+body {
+
+	background-color: black;
+	background-size: 100% auto;
+	margin: 0 auto 53px;
+	width: 80% /*93.75%;*/ /* 900px / 960px */
+	/*border: 1px solid black;
+	border-radius: 15px;*/
+}
+
+h1 {
+	color: #000000;
+	text-align: center;
+	font-family: 'Share Tech', sans-serif;
+	/*font-family: "sansserif";*/
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-bottom:1em;
+}
+
+
+h2 {
+	color: #000000;
+	text-align: center;
+	font-family: 'Share Tech', sans-serif;
+	/*font-family: "sansserif";*/
+	font-weight: bold;
+	font-size: 1.25em;
+	background-color: #FF7F50;
+	padding:2em;
+	margin-top:-0.001em;
+}
+
+
+
+ol li {
+		font-family: 'Share Tech', sans-serif;
+    font-weight: bold;
+		text-align: center;
+    list-style: none;
+    padding-top: 1em;
+}
+
+
+img{ 
+	border: 0; 
+}
+a:hover img {
+		background: #3333CC;
+/*display:block;
+margin-left: auto;   margin-right: auto;*/
+}
+
+a img{vertical-align:text-bottom;}
+
+.pics{
+	float: left;
+	padding-left: 0.5em;
+}
+
+
+a:link{
+	color: Yellow;
+}
+a:visited{
+	color: Yellow;
+}
+a:hover {
+	text-decoration:underline;
+}
+a:active {
+	color: Yellow;
+}
+
+a {
+	text-decoration: none;
+	}
+
+/* ===================  Header Section  ==================================== */
+/* now i would have a section that corresponds to my html sections.          */
+#header {
+	/*background-color: #dddddd;*/
+}
+
+/* -------------------------------------------------------------------------- */
+/* in my html code my body tag on the main page would have an id="main" so    */
+/* i would be able to create rules for just the main page.                    */
+
+
+#main{
+	float: left;
+	text-align: center;
+	width: 57%; /* 566px / 900px */
+	background-color: rgb(119, 147, 121);
+}
+
+#headBackground{
+	text-align: center;
+	/*background-image: url("river.jpg"); *//*http://themavesite.com/TMS-Pictures/EpicNature/2011/OwyheeRiver,Idaho,USA.jpg*/
+	background-color: #D80000;
+	background-repeat: no-repeat; 
+	/*margin: 0 auto 53px;*/
+	/*width: 80% *//*93.75%;*/ /* 900px / 960px */
+	}
+	
+#navBackground{
+	text-align: center;
+	background-color: #D80000;
+	background-repeat: no-repeat; 
+	/*margin: 0 auto 53px;*/
+	/*width: 80% *//*93.75%;*/ /* 900px / 960px */
+	border: 1px solid black;
+	/*border-radius: 15px;*/
+	}
+	
+#mainBody{
+	text-align: center;
+	background-color: #FF7F50;
+	background-repeat: no-repeat; 
+	/*margin: 0 auto 53px;*/
+	/*width: 80% *//*93.75%;*/ /* 900px / 960px */
+	border-radius: 0px 0px 15px 15px
+}
+
+#mainBodyForm{
+	text-align: center;
+	background-color: #FF7F50;
+	background-repeat: no-repeat; 
+	/*margin: 0 auto 53px;*/
+	/*width: 80% *//*93.75%;*/ /* 900px / 960px */
+	border: 1px solid black;
+	border-radius: 0px 0px 15px 15px
+}
+
+#form{
+	text-align: center;
+	background-color:#FF7F50;
+}
+
+#main1{
+	padding: .2em 8.48056537% .2em 8.48056537%; /* 48px / 566px */
+	text-align: left;
+	padding-bottom: 1em;
+	
+}
+
+
+#other{
+	float: right;
+	width: 43%; /* 331px / 900px */
+}
+
+#bar{
+	float: left;
+	padding-left: 0.5em;
+	padding-top: 0.5em;
+	padding-right: 0.5em;
+	border: 1px solid black;
+}
+
+#errors ol li{
+    color: #ff66ff;
+}
+
+
+
+	
+
+
+legend{
+		font-size: 1.5em;
+		}	
+	
+#main p {
+    /* this rule will give all the paragraphs on the main page a first line  */
+    /* indent of 3 em. it only effects paragraphs that are contained inside  */
+    /* the element with the id of main, this replaces using an embeded or    */
+    /* level style */
+	text-indent: 3em;
+	text-align: center;
+}
+
+/* ===================  General Class Section  ============================= */
+/* I can add any generic classes here. Technically i can place these rules   */
+/* anywhere in the style sheet. This just helps to orgainize everything.     */
+.firstLine {
+	text-indent: 3em;
+}
+
+.mistake {
+    color: #fff;
+    background-color:#800;
+    border: thin solid #000;
+}
+
+
+
+
+
+/* header section */
+header h1 {
+	padding: 0.8em 5.33333333%; 
+}
+
+/* nav section */
+nav ol {
+	padding-left: 5.33333333%;  /* 48px / 900px */
+	text-align: center;
+}
+nav ol li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 3em;
+}
+
+ol li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 3em;
+}
+
+/* article section */
+
+
+article{
+	text-align: center;
+}
+
+
+article h1{
+ padding: .2em 8.48056537% .2em 8.48056537%; /* 48px / 566px */
+ text-align: left;
+}
+
+article h2{
+ padding: .2em 8.48056537% .2em 8.48056537%; /* 48px / 566px */
+ 	color: #000000;
+	text-align: center;
+	font-family: 'Rye', cursive;
+	/*font-family: "sansserif";*/
+	font-weight: bold;
+	font-size: 1.00em;
+	background-color: #90EE90;
+}
+
+
+header {
+		background-image: url("river.jpg"); /*http://themavesite.com/TMS-Pictures/EpicNature/2011/OwyheeRiver,Idaho,USA.jpg*/
+		height: 300px;
+		}
+		
+#headTitle{
+	padding-top:1em;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+table{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 1em;
+	}
+		
+		
+fieldset{
+		background-color: #FF7F50;
+		}
+		
+p {
+	text-align: center;
+	}
+	
+#form {
+	text-align: center;
+	background-color: black;
+	}
+	
+form {
+	text-align: center;
+	background-color: #FF7F50;
+	}
+
+/* footer section */
+footer{
+	clear: both;
+	background-color: #D80000;
+	border-bottom-right-radius:015px;
+	border-bottom-left-radius:015px;
+	padding: 0.8em 5.33333333%;  /* 48px / 900px */
+}
