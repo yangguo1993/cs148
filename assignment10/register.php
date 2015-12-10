@@ -1,57 +1,5 @@
 <?php
-/* the purpose of this page is to display a form to allow a person to register 
- * the form will be sticky meaning if there is a mistake the data previously  
- * entered will be displayed again. Once a form is submitted (to this same page) 
- * we first sanitize our data by replacing html codes with the html character. 
- * then we check to see if the data is valid. if data is valid enter the data  
- * into the table and we send and dispplay a confirmation email message.  
- *  
- * if the data is incorrect we flag the errors. 
- *  
- * Written By: Robert Erickson robert.erickson@uvm.edu 
- * Last updated on: October 10, 2013 
- *  
- *  
-  -- -------------------------------------------------------- 
-  -- 
-  -- Table structure for table `tblRegister` 
-  -- 
 
-CREATE TABLE tblUser(
-pkUserId int(4) PRIMARY KEY NOT NULL AUTO_INCREMENT,
-fldFirstName varchar(20),
-fldLastName varchar(20),
-fldEmail varchar(35),
-fldGender varchar(10),
-fldTrainerName varchar(25),
-fldPassword varchar(25),
-fldDateJoined timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP, 
-fldConfirmed tinyint(1) NOT NULL DEFAULT '0',  
-fkPokemonId int(4) not null references tblPokemon(pkPokemonId)
-)
-ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=2;
-
-
-CREATE TABLE tblPokemon(
-pkPokemonId int(4) PRIMARY KEY NOT NULL AUTO_INCREMENT,
-fldType varchar(20),
-fldSpecies varchar(20),
-fldImage varchar(25),
-fldHealth int(5),
-fldAttack int(5),
-fldDefense int(5)
-)
-ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=2;
-
-
-
- * I am using a surrogate key for demonstration,  
- * email would make a good primary key as well which would prevent someone 
- * from entering an email address in more than one record. 
- */ 
-//%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
-// initialize my variables
-//
 $debug=false;
 
 
@@ -563,7 +511,7 @@ if($errorMsg){
 
 
 
-<form action="<? print $_SERVER['PHP_SELF']; ?>" 
+<form action="<?php print $_SERVER['PHP_SELF']; ?>" 
             method="post"
             id="frmRegister"
             enctype="multipart/form-data">
