@@ -4,6 +4,7 @@
 
     <h4>FINAL PROJECT</h4>
     <ul><li><a href="assignment10/index.php">index.php</a></li></ul>
+    <ul><li><a href="assignment10/SpecsDoc.pdf">SpecsDoc.php</a></li></ul>
     
     <h4>MISC</h4>
     <ul><li><a href="misc/friday.php">friday.php</a></li></ul>

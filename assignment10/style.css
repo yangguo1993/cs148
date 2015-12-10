@@ -3,13 +3,13 @@
 /* ===================  General Section  ==================================== */
 
 * {
-	font-size: 12pt;  /* sets the font size for all elements. */
+	font-size: 14pt;  /* sets the font size for all elements. */
     /* look up reset style sheet */
 }
 
 body {
 
-	background-color: black;
+	background-color: orange;
 	background-size: 100% auto;
 	margin: 0 auto 53px;
 	width: 80% /*93.75%;*/ /* 900px / 960px */
@@ -29,7 +29,7 @@ h1 {
 
 
 h2 {
-	color: #000000;
+	color: #000011;
 	text-align: center;
 	font-family: 'Share Tech', sans-serif;
 	/*font-family: "sansserif";*/
@@ -55,7 +55,7 @@ img{
 	border: 0; 
 }
 a:hover img {
-		background: #3333CC;
+		background: #3332CC;
 /*display:block;
 margin-left: auto;   margin-right: auto;*/
 }
@@ -106,7 +106,7 @@ a {
 #headBackground{
 	text-align: center;
 	/*background-image: url("river.jpg"); *//*http://themavesite.com/TMS-Pictures/EpicNature/2011/OwyheeRiver,Idaho,USA.jpg*/
-	background-color: #D80000;
+	background-color: #D90000;
 	background-repeat: no-repeat; 
 	/*margin: 0 auto 53px;*/
 	/*width: 80% *//*93.75%;*/ /* 900px / 960px */
